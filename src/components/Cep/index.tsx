@@ -12,7 +12,7 @@ const Address = () => {
         <div className="Address">
           <Form>
             <Form.Field inline>
-              <Header size="small">Logradouro</Header>
+              <Header size="small" data-testid='logradouro'>Logradouro</Header>
               <Input fluid value={ceps.logradouro} />
             </Form.Field>
             <Form.Field inline>
